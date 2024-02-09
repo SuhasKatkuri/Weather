@@ -1,0 +1,67 @@
+body {
+    background-color: #1c1c1e;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    padding: 20px;
+}
+
+input[type="text"],
+button {
+    background-color: #29292a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#cityInput {
+    width: 200px;
+}
+
+#getLocation, #searchButton {
+    background-color: #0070e0;
+}
+
+#getLocation:hover, #searchButton:hover {
+    background-color: #005bbc;
+}
+
+#cityName {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+span {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#cityTime {
+    font-size: 14px;
+    font-weight: bold;
+    color: #50d2c2;
+}
+
+#condition {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cityTemp {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#feelsLike, #humidity, #uv {
+    font-size: 16px;
+}
